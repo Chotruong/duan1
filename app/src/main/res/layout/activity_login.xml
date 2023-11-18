@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:orientation="vertical"
+    android:background="@mipmap/giphy">
+
+   <TextView
+       android:layout_marginTop="300dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Đăng Nhập"
+       android:gravity="center"
+       android:layout_gravity="center"
+       android:textStyle="bold"
+       android:textSize="50dp"
+       android:textColor="#800505"/>
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Tài khoản"
+    android:textStyle="italic"
+    android:textSize="30dp"
+    android:textColor="#2196F3"
+    android:layout_marginLeft="20dp"
+    android:layout_marginBottom="5dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edUser"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mật Khẩu"
+        android:textStyle="italic"
+        android:textSize="30dp"
+        android:textColor="#2196F3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="5dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edPass"
+        android:inputType="textPassword"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng Nhập"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/btnLogin"/>
+
+</LinearLayout>
